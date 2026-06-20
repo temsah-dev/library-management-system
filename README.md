@@ -65,9 +65,9 @@ Make sure you have the following installed:
    git clone https://github.com/temsah-dev/library-management-system.git
    ```
 
-2. **Extract the project**
-   - Unzip `LibrarySystem.zip`
-   - Open NetBeans → `File` → `Open Project` → select the `LoginAndSingUp` folder
+2. **Open the project in NetBeans**
+   - Open NetBeans → `File` → `New Project` → `Java` → `Java Application`
+   - Add all `.java` files to the project source folder
 
 3. **Set up the database**
    - Start XAMPP and run Apache + MySQL
@@ -84,19 +84,18 @@ Make sure you have the following installed:
 ## 🗂️ Project Structure
 
 ```
-LibrarySystem.zip
-├── librarymanagementsystemdata.sql   # MySQL database dump
-└── LoginAndSingUp/
-    └── src/
-        └── loginandsingup/
-            ├── LoginAndSingUp.java   # Main entry point
-            ├── Login.java            # Login screen
-            ├── SignUp.java           # Registration screen
-            ├── HomePage.java         # Main user dashboard
-            ├── BookPage.java         # Book detail view
-            ├── AdminSettings.java    # Admin control panel
-            ├── UserSettings.java     # User profile settings
-            └── Search.java           # Search interface
+library-management-system/
+├── LoginAndSingUp.java        # Main entry point
+├── Login.java                 # Login screen
+├── SignUp.java                # Registration screen
+├── HomePage.java              # Main user dashboard
+├── BookPage.java              # Book detail view
+├── AdminSettings.java         # Admin control panel
+├── UserSettings.java          # User profile settings
+├── Search.java                # Search interface
+├── librarymanagementsystemdata.sql  # MySQL database dump
+├── README.md
+└── LICENSE
 ```
 
 ---
